@@ -1,0 +1,21 @@
+.statList {
+    display: flex;
+    /* gap: 25px; */
+    justify-content: center;
+    align-items: center;
+    padding-left: 0;
+    background-color: #ffff;
+}
+
+.statItem {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e6dfdf;
+    padding: 10px 20px;
+}
+
+.qnt {
+    text-align: center;
+    font-size: 20px;
+
+}

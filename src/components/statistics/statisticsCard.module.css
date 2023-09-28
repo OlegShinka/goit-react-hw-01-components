@@ -1,0 +1,7 @@
+.item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 15px;
+    border: 1px solid #e6dfdf;
+}

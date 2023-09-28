@@ -1,10 +1,10 @@
 import { StatUser } from './statUser';
-
+import css from '../profile/profile.module.css';
 export const Profile = ({ avatar, username, tag, location, stats }) => {
   return (
-    <div className="profile">
+    <div className={css.profile}>
       <div className="description">
-        <img src={avatar} alt={username} width="150" className="avatar" />
+        <img src={avatar} alt={username} width="150" className={css.avatar} />
         <p className="name">{username}</p>
         <p className="tag">{tag}</p>
         <p className="location">{location}</p>

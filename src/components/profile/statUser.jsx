@@ -1,25 +1,24 @@
+import css from './statUser.module.css';
 export const StatUser = ({ stats }) => {
   return (
-    <ul
-      className="stat-list"
-      style={{
-        display: 'flex',
-        gap: '25px',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}
-    >
-      <li style={{ display: 'flex', flexDirection: 'column' }}>
-        <span className="label">Followers</span>
-        <span className="quantity">{stats.followers}</span>
+    <ul className={css.statList}>
+      <li className={css.statItem}>
+        <span className={css.qnt}>Followers</span>
+        <span className={css.qnt}>
+          <strong>{stats.followers}</strong>
+        </span>
       </li>
-      <li style={{ display: 'flex', flexDirection: 'column' }}>
-        <span className="label">Views</span>
-        <span className="quantity">{stats.views}</span>
+      <li className={css.statItem}>
+        <span className={css.qnt}>Views</span>
+        <span className={css.qnt}>
+          <strong>{stats.views}</strong>
+        </span>
       </li>
-      <li style={{ display: 'flex', flexDirection: 'column' }}>
-        <span className="label">Likes</span>
-        <span className="quantity">{stats.likes}</span>
+      <li className={css.statItem}>
+        <span className={css.qnt}>Likes</span>
+        <span className={css.qnt}>
+          <strong>{stats.likes}</strong>
+        </span>
       </li>
     </ul>
   );
