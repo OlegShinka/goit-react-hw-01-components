@@ -1,13 +1,12 @@
 .container {
-    height: 700px;
-    width: 600px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 40px;
     color: #010101;
-    border: 1px solid #010101;
-    background-color: aquamarine;
+    /* border: 1px solid #010101; */
+
     margin: 100px auto;
 }

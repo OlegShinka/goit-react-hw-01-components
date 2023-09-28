@@ -6,12 +6,8 @@ export const Statistics = ({ title, data }) => {
     <section className="statistics">
       <h2 className="title">Upload stats</h2>
       <ul className="stat-list">
-        {data.map(item => (
-          <CardStat
-            key={item.id}
-            label={item.label}
-            percentage={item.percentage}
-          />
+        {data.map(({ id, label, percentage }) => (
+          <CardStat key={id} label={label} percentage={percentage} />
         ))}
       </ul>
     </section>
