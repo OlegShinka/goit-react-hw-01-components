@@ -1,6 +1,7 @@
 // import { Statistics } from '../components/Statistics'; // іменов імпорт
 import { Profile } from './profile/profile';
 import css from '../components/profile/profile.module.css';
+import { Statistics } from './statistics/statistics';
 // import { CardContainer } from './profile/cardContainer';
 import user from '../data/user.json';
 import data from '../data/data.json';
@@ -15,6 +16,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics data={data} />
     </div>
   );
 };
