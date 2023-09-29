@@ -1,9 +1,9 @@
 import { Profile } from './profile/profile';
-// import css from '../components/profile/profile.module.css';
 import { Statistics } from './statistics/statistics';
-// import { CardContainer } from './profile/cardContainer';
+import { FriendList } from './friendlist/friendlist';
 import user from '../data/user.json';
 import data from '../data/data.json';
+import friends from '../data/friends.json';
 
 export const App = () => {
   return (
@@ -16,6 +16,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics data={data} />
+      <FriendList friends={friends} />
     </div>
   );
 };
