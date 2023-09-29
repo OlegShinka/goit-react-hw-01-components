@@ -8,7 +8,6 @@
     font-size: 20px;
     color: #010101;
     background-color: #f0f8ff;
-    /* border: 1px solid #010101; */
     margin: 100px auto;
 }
 
@@ -16,4 +15,8 @@
     display: flex;
     background-color: #ffff;
     padding-left: 0;
+}
+
+.title {
+    font-size: 34px;
 }
