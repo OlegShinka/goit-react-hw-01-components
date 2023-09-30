@@ -1,0 +1,17 @@
+.transactionHistory {
+    margin: 0 auto;
+}
+
+.headItem {
+    background-color: #7fffd4;
+    color: #ffff;
+    margin: 0;
+}
+
+table th,
+table td {
+    padding: 20px 100px;
+    border: 1px solid #e6dfdf;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
