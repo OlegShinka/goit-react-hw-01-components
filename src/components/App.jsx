@@ -2,6 +2,7 @@ import { Profile } from './profile/profile';
 import { Statistics } from './statistics/statistics';
 import { FriendList } from './friendlist/friendlist';
 import { TransactionHistory } from './transactions/transactionHistory';
+import MyCounter from 'components/counter/counter';
 import user from 'data/user.json';
 import data from 'data/data.json';
 import friends from 'data/friends.json';
@@ -20,6 +21,7 @@ export const App = () => {
       <Statistics data={data} />
       <FriendList friends={friends} />
       <TransactionHistory transactions={transactions} />
+      <MyCounter initialValue1={0} initialValue2={0} />
     </div>
   );
 };
